@@ -1,0 +1,66 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+/* Contact us section */
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+.donate {
+    background: #00684d;
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.4) 100%),
+                -webkit-linear-gradient(left, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 100%),
+                linear-gradient(to right, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+    background-position: 0 0;
+    background-size: 200% 100%;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px 8px;
+    text-shadow: 1px 1px 5px #666;
+    -webkit-transition: all 800ms;
+    transition: all 800ms;
+    
+  }
